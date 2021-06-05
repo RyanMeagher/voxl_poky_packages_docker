@@ -13,6 +13,6 @@ RUN git clone -b modalai-sd820-jethro https://gitlab.com/voxl-public/poky.git
 #remove so you can run as root in docker
 RUN  echo "#No sanity checks" > /poky/meta/conf/sanity.conf
 
-WORKDIR /poky/build 
 
-ENTRYPOINT ["/bin/bash", "-c", "../../setup.sh"]
+ENTRYPOINT ["/bin/bash", "-c", "./setup.sh"]
+
