@@ -8,4 +8,3 @@ docker run \
 	poky:voxl_packages ./setup.sh
 
 
-#--mount "type=bind,src=$(pwd)/build_packages,dst=/build_packages" \
