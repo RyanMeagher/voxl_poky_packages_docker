@@ -1,1 +1,4 @@
 poky
+poky_voxl_packages_docker.tgz
+.bash_history
+build_packages/*
