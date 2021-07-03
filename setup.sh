@@ -10,6 +10,7 @@ cd /$MOUNT_DIR/poky
 source oe-init-build-env
 
 cp $POKY_DIR/modalai/local.conf $POKY_DIR/build/conf/
+echo "WARN_QA_remove = "host-user-contaminated"" >> $POKY_DIR/build/conf/local.conf
 
 read -p 'package names you want installed seperated by a space: ' package_list 
 
